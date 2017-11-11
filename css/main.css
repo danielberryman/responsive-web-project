@@ -97,21 +97,314 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/*mobile-styles*/
 
+body, html {
+    width: 100%;
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    background: #f2f2f2;
+}
 
+.full-width {
+    margin: 0;
+    padding: 2%;
+    width: 96%;
+}
 
+/*header*/
 
+header {
+    background: #d8d8d8;
+    width: 100%;
+}
 
+.title {
+    background: black;
+    color: white;
+    font-size: 4em;
+    font-style: italic;
+    margin: 0;
+    padding: 20px 0;
+    text-align: center;
+    text-transform: capitalize;
+}
 
+.nav {
+    padding: 0;
+}
 
+.nav-links {
+    border-bottom: 1px solid gray;
+    list-style: none;
+    padding: 10px 0;
+    text-align: center;
+}
 
+.nav-links a {
+    color: black;
+    font-size: 1.25em;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
 
+.nav-links a:hover {
+    color: #ff1256;
+}
 
+/*styles*/
 
+h2 {
+    text-transform: capitalize;
+}
 
+p {
 
+}
 
+/*top-story*/
 
+.top-story h2 {
+    margin: 10px 0;
+}
+
+.top-story img, h2, p {
+    width: 100%;
+}
+
+.top-story p {
+    padding-bottom: 4%;
+    margin: 0;
+}
+
+/*newsletter-sign*/
+
+.hide-mobile {
+    display: none !important;
+}
+
+.newsletter-signup {
+    /*border-bottom: 1px solid gray;*/
+}
+
+.newsletter-signup h3 {
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.newsletter-signup input {
+    box-sizing:border-box;
+    font-size: 1.5em;
+    height: 40px;
+    margin: 10px 0;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.newsletter-signup input:focus {
+    outline: 0;
+}
+
+button {
+    background: #ff1256;
+    border: none;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    height: 40px;
+    margin: 5px 0;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.newsletter-signup button:focus {
+    outline: 0;
+}
+
+/*news-feed*/
+
+.news-story {
+
+}
+
+hr {
+    clear: both;
+    margin: 0;
+    width: 100%;
+}
+
+.news-feed h3, h5 {
+    margin: 15px 0;
+    text-transform: capitalize;
+}
+
+.news-article {
+    clear: both;
+    width: 100%;
+}
+
+.article-img {
+    float: left;
+    width: 45%;
+}
+
+.article-img img {
+    padding: 0 0 15px 0;
+    width: 100%;
+}
+
+.article-blurb {
+    float: left;
+    margin: 0 0 0 10px;
+    width: 45%;
+}
+
+.article-blurb h3 {
+    margin: 0;
+}
+
+/*details-page*/
+
+.article-author-date {
+    font-size: 1em;
+    text-transform: capitalize;
+}
+
+.byline {
+    font-size: 1.125em;
+}
+
+.byline span {
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+/*concert-page*/
+
+.concert-list {
+    width: 100%;
+}
+.concert-instance {
+    padding: 25px 0;
+}
+.concert-date {
+    border: 5px solid #d8d8d8;
+    float: left;
+    width: 20%;
+}
+.concert-date p {
+    /*padding: 10px;*/
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 10% 0;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+.concert-info {
+    float: left;
+    margin: 0 10px;
+    width: 70%
+}
+
+.concert-info h3, p {
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.concert-info button {
+    margin-bottom: 25px;
+}
+
+/*about-page*/
+
+.map-container {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+}
+
+.map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.about p {
+    margin-bottom: 10px;
+}
+.mission {
+
+}
+.team {
+
+}
+.member-instance {
+    clear: both;
+    width: 100%;
+}
+.member-img {
+    float: left;
+    width: 40%;
+}
+.member-img img {
+    border: 2px solid #d8d8d8;
+    margin-bottom: 20px; 
+    width: 100%;
+}
+.member-info {
+    float: left;
+    margin: 0 10px 10px 10px;
+    width: 50%;
+}
+.member-info h3 {
+    text-transform: capitalize;
+    width: 100%;
+}
+
+.member-info h3, h5 {
+    margin-top: 0;
+    margin-bottom: 2%;
+}
+
+/*faq-page*/
+
+.faq p {
+    margin-bottom: 20px;
+    text-transform: none;
+}
+.faq-instance {
+    margin: 20px 0;
+}
+
+.question {
+    font-size: 1.125em;
+}
+
+/*footer*/
+
+footer {
+    border-top: 1px solid gray;
+    clear: both;
+    color: white;
+    font-size: 3em;
+    font-style: italic;
+    padding-top: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    width: 100%;
+}
+
+footer h6 {
+    background: black;
+    margin: 0 25%;
+    padding: 10px;
+}
 
 /* ==========================================================================
    Helper classes
@@ -203,15 +496,473 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
-}
+@media (min-width: 768px) {
+    body, html {
+        width: 100%;
+        margin: 0;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 16px;
+        background: #f2f2f2;
+    }
 
-@media print,
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 1.25dppx),
-       (min-resolution: 120dpi) {
-    /* Style adjustments for high resolution devices */
+    .hide-mobile {
+        display: block !important;
+    }
+
+    .hide-tablet {
+        opacity: 0;
+    }
+
+    .hide-tablet-display {
+        display: none !important;
+    }
+
+    /*header*/
+
+    header {
+        background: #d8d8d8;
+        height: 129px;
+        margin: 0;
+        width: 100%;
+    }
+
+    .title {
+        float: left;
+        margin-left: 2%;
+        width: 44%;
+    }
+
+    .nav {
+        display: inline;
+        float: right;
+        padding: 53px 0;
+        text-align: center;
+        width: 52%;
+    }
+
+    .nav-links {
+        font-size: .85em;
+        border: none;
+        float: left;
+        list-style: none;
+        padding: 0;
+        width: 25%;
+    }
+
+    /*top-story*/
+
+    .top-story img {
+        float: left;
+        width: 62%;
+    }
+
+    .top-story h2, p {
+        float: left;
+        padding-left: 2%;
+        width: 36%
+    }
+
+    /*side-bar*/
+
+    .sidebar {
+        float: right;
+        padding-left: 1%;
+        margin-right: 2%;
+        width: 34.5%;
+    }
+
+    .newsletter-signup {
+        clear: both;
+        float: left;
+        width: 100%;
+    }
+    .newsletter-signup p {
+        padding-left: 0;
+        width: 100%;
+    }
+
+    .newsletter-detail {
+        float: left;
+    }
+
+    /*news-feed*/
+
+    .news-feed {
+        float: left;
+        padding-left: 0;
+        margin-left: 2%;
+        width: 57.5%;
+    }
+
+    .news-feed h3 {
+        margin-top: 0;
+    }
+
+    /*detail pages*/
+
+    .article {
+        clear: both;
+        line-height: 150%; 
+        padding: 0;
+        width: 100%;
+    }
+
+    .article-first-p {
+        padding-top: 30px;
+    }
+
+    .newsletter-details-page {
+        float: none;
+        width: 96%;
+    }
+
+    .tablet-set {
+        float: left;
+        width: 30%;
+    }
+
+    .tablet-set input {
+        width: 30%;
+    }
+
+    /*contact-page*/
+
+    .about-info {
+        float: left;
+        width: 35%;
+    }
+
+    .about p {
+        width: 100%;
+        padding: 0;
+    }
+
+    /*.about-img {
+        float: left;
+        padding-left: 5%;
+        width: 60%;
+    }*/
+
+    .mission {
+        clear: both;
+    }
+
+    .mission p {
+        padding: 0;
+        width: 100%;
+    }
+
+    .team {
+        clear: both;
+    }
+
+    .member-img {
+        width: 20%;
+    }
+
+    .member-info {
+        margin-left: 3%;
+    }
+
+    .member-info h3, h5 {
+        margin-top: 0;
+        margin-bottom: 2%;
+    }
+
+    /*faq-page*/
+
+    .faq-instance p {
+        padding: 0;
+        width: 100%;
+    }
+
+    /*concert-page*/
+
+    .concert-instance p {
+        padding: 0;
+        width: 100%;
+    }
+
+    .page-left-side {
+        clear: both;
+        float: left;
+        margin: 0 1%;
+        width: 48%;
+    }
+
+    .page-right-side {
+        float: left;
+        margin: 0 1%;
+        width: 48%;
+    }
+
+    footer {
+        border-top: none;
+        margin: 0 auto;
+    }
+
+@media (min-width: 940px) {
+    body, html {
+        width: 100%;
+        margin: 0;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 16px;
+        background: #f2f2f2;
+    }
+    
+    .hide-mobile {
+        display: block !important;
+    }
+
+    .hide-tablet {
+        opacity: 1;
+    }
+
+    .hide-desktop {
+        opacity: 0;
+    }
+
+    /*header*/
+
+    header {
+        background: #d8d8d8;
+        height: 129px;
+        margin: 0;
+        width: 100%;
+    }
+
+    .title {
+        float: left;
+        margin-left: 2%;
+        width: 44%;
+    }
+
+    .nav {
+        display: inline;
+        float: right;
+        padding: 53px 0;
+        text-align: center;
+        width: 52%;
+    }
+
+    .nav-links {
+        font-size: .85em;
+        border: none;
+        float: left;
+        list-style: none;
+        padding: 0;
+        width: 25%;
+    }
+
+    /*top-story*/
+
+    .top-story {
+        clear: both;
+        float: left;
+        padding-bottom: 0;
+        width: 62%;
+    }
+
+    .top-story img {
+        width: 100%;
+    }
+
+    .top-story h2 {
+        margin: 5px 0;
+        padding: 0;
+        padding-bottom: 0;
+        width: 100%;
+    }
+    .top-story p {
+        padding-left: 0;
+        width: 100%;
+    }
+
+    /*side-bar*/
+
+    .sidebar {
+        border-top: none;
+        float: left;
+        margin: 0;
+        padding: 2% 2% 0 2%;
+        width: 30%;
+    }
+
+    .sidebar-concert-page {
+        padding-top: 0;
+    }
+
+    .newsletter-signup {
+        clear: both;
+        float: right;
+        width: 100%;
+    }
+    .newsletter-signup p {
+        line-height: 200%;
+        padding-left: 0;
+        width: 100%;
+    }
+
+    .newsletter-signup button {
+        margin-bottom: 20px;
+    }
+
+    /*news-feed*/
+
+    .news-feed {
+        border: none;
+        padding: 0;
+        margin: 0 2%;
+        width: 96%;
+    }
+
+    .news-feed h3 {
+        margin: 2% 0 1% 0;
+    }
+
+    .news-feed h5 {
+        margin: 1% 0;
+    }
+
+    /*detail pages*/
+
+    .article {
+        clear: both;
+        line-height: 150%; 
+        padding: 0;
+        width: 100%;
+    }
+
+    .article-img {
+        width: 20%;
+    }
+
+    .article-first-p {
+        padding-top: 0;
+    }
+
+    .article-blurb {
+        width: 76%;
+    }
+
+    .article-blurb h3 {
+        margin-top: 0;
+    }
+
+    .article-blurb p {
+        padding-left: 0;
+        width: 100%;
+    }
+
+    .newsletter-details-page {
+        float: left;
+        width: 96%;
+    }
+
+    .tablet-set {
+        float: left;
+        width: 30%;
+    }
+
+    .tablet-set input {
+        width: 30%;
+    }
+
+    .details-hr {
+        margin: 2%;
+        width: 96%;
+    }
+
+    /*contact-page*/
+
+    .about-info {
+        float: left;
+        width: 35%;
+    }
+
+    .about p {
+        width: 100%;
+        padding: 0;
+    }
+
+   /* .about-img {
+        float: left;
+        padding-left: 5%;
+        width: 60%;
+    }*/
+
+    .mission {
+        clear: both;
+    }
+
+    .mission p {
+        padding: 0;
+        width: 100%;
+    }
+
+    .team {
+        clear: both;
+    }
+
+    .member-instance {
+        width: 100%;
+    }
+
+    .member-img {
+        width: 20%;
+    }
+
+    .member-info {
+        float: left;
+        width: 70%;
+        margin-left: 3%;
+    }
+
+    .member-info h3, h5, p {
+        padding: 0;
+        margin: 0;
+    }
+
+    .member-info p {
+        width: 100%;
+    }
+
+    /*faq-page*/
+
+    .faq-instance p {
+        padding: 0;
+        width: 100%;
+    }
+
+    /*concert-page*/
+
+    .concert-list {
+        padding
+        width: 60%;
+    }
+
+    .concert-instance p {
+        padding: 0;
+        width: 100%;
+    }
+
+    .page-left-side {
+        clear: both;
+        float: left;
+        margin: 0 1%;
+        width: 30%;
+    }
+
+    .page-right-side {
+        float: left;
+        margin: 0 1%;
+        width: 30%;
+    }
+
+    footer {
+        border-top: none;
+        margin: 0 auto;
+    }
 }
 
 /* ==========================================================================
